@@ -1,5 +1,5 @@
 {
-  "name": "gatsby-tailwind",
+  "name": "savings-calculator-gatsby",
   "version": "0.1.0",
   "dependencies": {
     "gatsby": "^2.18.12",
@@ -40,14 +40,15 @@
     "start": "npm run develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
+    "deploy": "gh-pages -d public"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/phartenfeller/gatsby-tailwind"
+    "url": "https://github.com/phartenfeller/savings-calculator-gatsby"
   },
   "bugs": {
     "url": "https://github.com/phartenfeller/gatsby-tailwind/issues"
   },
-  "homepage": "https://github.com/phartenfeller/gatsby-tailwind"
+  "homepage": "https://github.com/phartenfeller/savings-calculator-gatsby"
 }
